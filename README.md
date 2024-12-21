@@ -1,0 +1,3 @@
+# JavaScript Null vs. Undefined Handling Error
+
+This repository demonstrates a common error in JavaScript related to handling null and undefined values. The `bug.js` file contains code that throws an error when an undefined value is passed to a function that expects a property access (length in this case). The `bugSolution.js` file provides a solution to this problem using a more robust approach.  This is a subtle issue that can be easily missed, leading to unexpected runtime errors.  The solution emphasizes defensive programming techniques for better error handling.
